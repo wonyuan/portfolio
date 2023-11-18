@@ -1,36 +1,42 @@
 import { NavLink } from "react-router-dom";
+/*
+                  <NavLink to="/" style={({ isActive }) => ({  
+                            color: isActive ? 'greenyellow' : 'white' })}> 
+                            Home 
+                        </NavLink> 
+*/
 
 function NavBar(){
     return(
         <div>
         <NavLink 
                 to="/" 
-                activeStyle={{ color: '#818dc7' }}
-                style={{ color: '#1c2554' }}>
+                style={({ isActive }) => ({  
+                color: isActive ? '#4B2F2F' : '#977A7A' })}> 
                 home
           </NavLink>
           <NavLink 
                 to="/" 
-                activeStyle={{ color: '#818dc7' }}
-                style={{ color: '#1c2554' }}>
+                style={({ isActive }) => ({  
+                color: isActive ? '#4B2F2F' : '#977A7A' })}> 
                 about
           </NavLink>
           <NavLink 
                 to="/projects" 
-                activeStyle={{ color: '#818dc7' }}
-                style={{ color: '#1c2554' }}>
+                style={({ isActive }) => ({  
+                color: isActive ? '#4B2F2F' : '#977A7A' })}> 
                 projects
           </NavLink>
           <NavLink 
                 to="/" 
-                activeStyle={{ color: '#818dc7' }}
-                style={{ color: '#1c2554' }}>
+                style={({ isActive }) => ({  
+                color: isActive ? '#4B2F2F' : '#977A7A' })}> 
                 design
           </NavLink>
           <NavLink 
                 to="/" 
-                activeStyle={{ color: '#818dc7' }}
-                style={{ color: '#1c2554' }}>
+                style={({ isActive }) => ({  
+                color: isActive ? '#4B2F2F' : '#977A7A' })}> 
                 manifesto
           </NavLink>
         </div>
