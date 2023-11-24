@@ -1,9 +1,10 @@
 import { NavLink } from "react-router-dom";
-/*
-                  <NavLink to="/" style={({ isActive }) => ({  
-                            color: isActive ? 'greenyellow' : 'white' })}> 
-                            Home 
-                        </NavLink> 
+import "./nav.css";
+/*                style={({ isActive }) => ({  
+                color: isActive ? '#4B2F2F' : '#977A7A' })}> 
+
+                style={({ isActive }) => ({  
+                color: isActive ? '#aa8866' : '#4B2F2F' })}
 */
 
 function NavBar(){
@@ -11,32 +12,28 @@ function NavBar(){
         <div>
         <NavLink 
                 to="/" 
-                style={({ isActive }) => ({  
-                color: isActive ? '#4B2F2F' : '#977A7A' })}> 
+                className="nav_link">
                 home
           </NavLink>
           <NavLink 
-                to="/" 
-                style={({ isActive }) => ({  
-                color: isActive ? '#4B2F2F' : '#977A7A' })}> 
+                to="/about" 
+                className="nav_link"
+                > 
                 about
           </NavLink>
           <NavLink 
-                to="/projects" 
-                style={({ isActive }) => ({  
-                color: isActive ? '#4B2F2F' : '#977A7A' })}> 
+                to="/projects"
+                className="nav_link"> 
                 projects
           </NavLink>
           <NavLink 
-                to="/" 
-                style={({ isActive }) => ({  
-                color: isActive ? '#4B2F2F' : '#977A7A' })}> 
+                to="/design"
+                className="nav_link"> 
                 design
           </NavLink>
           <NavLink 
-                to="/" 
-                style={({ isActive }) => ({  
-                color: isActive ? '#4B2F2F' : '#977A7A' })}> 
+                to="/manifesto"
+                className="nav_link"> 
                 manifesto
           </NavLink>
         </div>
