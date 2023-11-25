@@ -28,8 +28,8 @@ function App() {
               <ToggleTheme/>
             </div>
               <NavBar/>
-            </div>
-            <div className='flex-container' id='content'>
+          </div>
+          <div className='flex-container' id='content' style={{ overflowY: 'scroll' }}>
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />

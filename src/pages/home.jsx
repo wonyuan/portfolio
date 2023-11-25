@@ -18,6 +18,10 @@ function Home(){
                 you can reach me at yangc137@mcmaster.ca anytime
                 <br/>
                 (or anywhere here)
+                <br/>
+                <br/>
+                <hr class="dash" />
+
             </p>
         </>
     )
