@@ -61,7 +61,7 @@ function About(){
               at mcmaster university, 
               <br/>
               <br/>
-              i'm also currently in some (fun fun fun) clubs 
+              i'm also currently in some fun clubs 
               <ul>
                 <li>
                 graphics executive at mcmaster design league, helping curate
