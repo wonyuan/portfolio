@@ -15,15 +15,12 @@ function About(){
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
     const morning = [
-        '/src/assets/me.jpeg',
         '/src/assets/gonghang.jpeg',
         '/src/assets/richmond.png',
         '/src/assets/haeundae.jpeg',
-        '/src/assets/jeju.jpeg',
       ];
 
       const night = [
-        '/src/assets/me2.jpg',
         '/src/assets/cheongju.jpeg',
         '/src/assets/hangang.jpeg',
         '/src/assets/night.jpg',
@@ -31,9 +28,9 @@ function About(){
       
       const handleImageClick = () => {
         if (theme === 'sun') {
-          setCurrentImageIndex((prevIndex) => (prevIndex + 1) % morning.length);
+          setCurrentImageIndex((prevIndex)=> (prevIndex + 1) % morning.length);
         } else {
-          setCurrentImageIndex((prevIndex) => (prevIndex + 1) % night.length);
+          setCurrentImageIndex((prevIndex)=> (prevIndex + 1) % night.length);
         }
       };
 
@@ -46,19 +43,21 @@ function About(){
                 <img src={currentImage}
                 className="abt-img"
                 onClick={handleImageClick}
-                style={{ border: '1px solid #362d25', overflow: 'hidden', objectFit: 'cover'}}/>
+                style={{ border: '3px solid #715555', overflow: 'hidden', objectFit: 'cover'}}/>
                 ) : (
                 <img src={currentImage}
                 className="abt-img"
                 onClick={handleImageClick}
-                style={{ border: '1px solid white',overflow: 'hidden', objectFit: 'cover'}}/>
+                style={{ border: '3px solid #D8D8D8',overflow: 'hidden', objectFit: 'cover'}}/>
             )}
             <p style={{ margin: '10px 0px 0px 0px' }}> ♪♫•*¨*•.¸¸♫♪ (switch the theme!) </p>
             <hr class="dash" />
-            <h2>about</h2>
             <p style={{ margin: '10px 0px 0px 0px' }}>
-              hi there! i'm currently a soph student studying software engineering
+              hi there! i'm currently a sophmore student studying software engineering
               at mcmaster university, 
+              <br/>
+              <br/>
+                            
               <br/>
               <br/>
               i'm also currently in some fun clubs 

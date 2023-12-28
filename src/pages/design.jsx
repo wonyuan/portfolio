@@ -1,37 +1,31 @@
 import Card from '../components/card.jsx';
-import { Link } from 'react-router-dom';
 import '../components/Card.css'; 
 import '../index.css'
 
-function Project(){
+function Design(){
 
     const cardDataSets = [
         {
-            id: 'directu',
-            cover: '/src/assets/directu.png',
-            subtitle: 'directu',
-            desc: 'your degree without the hassle',
-            tags: ['web app', 'front-end', 'flask','python','cohere'],
+            id: "brewcareer",
+            cover: '/src/assets/brewcareer.png',
+            subtitle: 'brewcareer',
+            desc: 'networking, but make it a little less intimidating and a little more intuitive',
+            tags: ['design','app','figma'],
+
           },
           {
             id: 2,
             cover: '',
-            subtitle: 'card2',
+            subtitle: 'Card 2 Subtitle',
             desc: 'Description for Card 2.',
             tags: [],
+
           },
           {
             id: 3,
             cover: '',
-            subtitle: 'card 3',
+            subtitle: 'Card 3 Subtitle',
             desc: 'Description for Card 3.',
-            tags: ['Web Development', 'Education', 'React'],
-          },
-          {
-            id: 4,
-            cover: '',
-            subtitle: 'card 4',
-            blurb: 'Description for Card 3.',
             tags: ['Web Development', 'Education', 'React'],
 
           },
@@ -39,19 +33,18 @@ function Project(){
     
       return (
         <>
-        <p className='title'> it's coming together</p>
+        <p className='title'> gone fishing 🎣 </p>
 
         <div className='card-box'>
           {cardDataSets.map((cardData, index) => (
-            <div className='card-boxes' key={index}>
+            <div className='card-boxes-des' key={index}>
               <Card 
-                path="/projects"
+                path="/design"
                 id={cardData.id}
                 cover={cardData.cover}
                 subtitle={cardData.subtitle}
                 desc={cardData.desc}
                 tags={cardData.tags}
-
               />
             </div>
           ))}
@@ -62,4 +55,4 @@ function Project(){
       );
 }
 
-export default Project;
+export default Design;

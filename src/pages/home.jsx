@@ -20,8 +20,6 @@ function Home(){
                 (or anywhere here)
                 <br/>
                 <br/>
-                <hr class="dash" />
-
             </p>
         </>
     )
