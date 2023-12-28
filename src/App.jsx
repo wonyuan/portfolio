@@ -6,6 +6,7 @@ import ToggleTheme from './components/logo.jsx';
 import Footer from './components/footer.jsx';
 import Project from './pages/projects.jsx';
 import Design from './pages/design.jsx';
+import Manifesto from './pages/manifesto.jsx';
 import DirectU from './pages/directu.jsx';
 import BrewCareer from './pages/brewcareer.jsx';
 import About from './pages/about.jsx';
@@ -38,7 +39,7 @@ function PageRouter(){
               <Route path="/about" element={<About />} />
               <Route path="/projects" element={<Project />} />
               <Route path="/design" element={<Design />} />
-              <Route path="/manifesto" element={<Project />} />
+              <Route path="/manifesto" element={<Manifesto />} />
             </Routes>
             <div id='footer'>
               <Footer/>

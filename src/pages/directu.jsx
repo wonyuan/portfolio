@@ -50,7 +50,9 @@ function DirectU(){
         <br/>
         <p> 
         <i>
-        36 hours, team of 4, [react, typescript, flask, python]
+        36 hours, 2 front-end developers, 2 back-end developers
+        <br/>
+        [react, typescript, flask, python, mongoDB, cohere]
         </i>
         </p>
     
