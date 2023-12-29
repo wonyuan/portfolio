@@ -1,6 +1,6 @@
 import Card from '../components/card.jsx';
 import { Link } from 'react-router-dom';
-import '../components/Card.css'; 
+import '../components/card.css'; 
 import '../index.css'
 
 function Project(){
