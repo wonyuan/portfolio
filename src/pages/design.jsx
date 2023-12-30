@@ -7,7 +7,7 @@ function Design(){
     const cardDataSets = [
         {
             id: "brewcareer",
-            cover: '/src/assets/brewcareer.png',
+            cover: '/brewcareer.png',
             subtitle: 'brewcareer',
             desc: 'networking, but make it a little less intimidating and a little more intuitive',
             tags: ['design','app','figma'],
@@ -26,7 +26,7 @@ function Design(){
             cover: '',
             subtitle: 'Card 3 Subtitle',
             desc: 'Description for Card 3.',
-            tags: ['Web Development', 'Education', 'React'],
+            tags: [],
 
           },
       ];

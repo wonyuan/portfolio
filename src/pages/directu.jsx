@@ -13,14 +13,14 @@ import Carousel from '../components/carousel.jsx';
 
 function DirectU(){
     const images = [
-        '/src/assets/directu.png',
-        '/src/assets/directu2.png',
-        '/src/assets/directu3.png',
-        '/src/assets/directu4.png',
-        '/src/assets/directu5.png',
-        '/src/assets/directu6.png',
-        '/src/assets/directu7.png',
-        '/src/assets/directu8.png'
+        '/directu.png',
+        '/directu2.png',
+        '/directu3.png',
+        '/directu4.png',
+        '/directu5.png',
+        '/directu6.png',
+        '/directu7.png',
+        '/directu8.png'
     ]
 
     return(

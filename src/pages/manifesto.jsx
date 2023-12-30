@@ -7,7 +7,7 @@ function Home(){
                 come back in the future!
                 <br/>
             </p>
-            <img src="/src/assets/graphic6.svg" 
+            <img src="/graphic6.svg" 
             className="header-icon-h2"
                 style={{ width:'80%' }}
             />

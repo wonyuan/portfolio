@@ -8,7 +8,7 @@ function Project(){
     const cardDataSets = [
         {
             id: 'directu',
-            cover: '/src/assets/directu.png',
+            cover: '/directu.png',
             subtitle: 'directu',
             desc: 'your degree without the hassle',
             tags: ['web dev', 'react', 'flask','python','cohere'],
@@ -22,7 +22,7 @@ function Project(){
           },
           {
             id: 'reverie',
-            cover: '/src/assets/reverie.png',
+            cover: '/reverie.png',
             subtitle: 'reverie',
             desc: 'streamlining all your study needs',
             tags: ['web dev', 'productivity', 'react'],
@@ -32,7 +32,7 @@ function Project(){
             cover: '',
             subtitle: 'card 4',
             blurb: 'Description for Card 3.',
-            tags: ['Web Development', 'Education', 'React'],
+            tags: [],
 
           },
       ];

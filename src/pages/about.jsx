@@ -15,15 +15,15 @@ function About(){
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
     const morning = [
-        '/src/assets/gonghang.jpeg',
-        '/src/assets/richmond.png',
-        '/src/assets/haeundae.jpeg',
+        '/gonghang.jpeg',
+        '/richmond.png',
+        '/haeundae.jpeg',
       ];
 
       const night = [
-        '/src/assets/cheongju.jpeg',
-        '/src/assets/hangang.jpeg',
-        '/src/assets/night.jpg',
+        '/cheongju.jpeg',
+        '/hangang.jpeg',
+        '/night.jpg',
       ];
       
       const handleImageClick = () => {

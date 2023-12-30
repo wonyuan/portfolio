@@ -1,8 +1,10 @@
 // logo.jsx
 import React, { useContext } from 'react';
 import { useTheme } from '../Theme.jsx';
-import sun from '/src/assets/sun.svg';
-import moon from '/src/assets/moon.svg';
+import sun from '/sun.svg';
+import moon from '/moon.svg';
+
+
 
 const ToggleTheme = () => {
   const { theme, toggleTheme } = useTheme();
