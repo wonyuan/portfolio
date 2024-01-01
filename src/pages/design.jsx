@@ -10,23 +10,15 @@ function Design(){
             cover: '/brewcareer.png',
             subtitle: 'brewcareer',
             desc: 'networking, but make it a little less intimidating and a little more intuitive',
-            tags: ['design','app','figma'],
+            tags: ['design','web app','figma'],
 
           },
           {
-            id: 2,
+            id: "bigcafe",
             cover: '',
-            subtitle: 'Card 2 Subtitle',
-            desc: 'Description for Card 2.',
-            tags: [],
-
-          },
-          {
-            id: 3,
-            cover: '',
-            subtitle: 'Card 3 Subtitle',
-            desc: 'Description for Card 3.',
-            tags: [],
+            subtitle: 'big cafe',
+            desc: 'new startings for a popular coffee chain',
+            tags: ['design','mobile app','figma'],
 
           },
       ];

@@ -14,26 +14,26 @@ function Project(){
             tags: ['web dev', 'react', 'flask','python','cohere'],
           },
           {
-            id: '',
+            id: 'sidealong',
             cover: '',
-            subtitle: 'card2',
-            desc: 'Description for Card 2.',
-            tags: [],
+            subtitle: 'side-along',
+            desc: 'a friend is waiting to hear about your day...',
+            tags: ['chrome ext','javascript'],
           },
           {
             id: 'reverie',
             cover: '/reverie.png',
             subtitle: 'reverie',
-            desc: 'streamlining all your study needs',
+            desc: 'workspace, streamlining all your study needs',
             tags: ['web dev', 'productivity', 'react'],
           },
           {
-            id: 4,
+            id: 'stylus',
             cover: '',
-            subtitle: 'card 4',
-            blurb: 'Description for Card 3.',
-            tags: [],
-
+            subtitle: 'tectron stylus',
+            desc: 'stylus designed to aid individuals with weak fine motor skills',
+            tags: ['product design','arduino','inventor'],
+            link: 'https://peat-forest-c80.notion.site/Project-4-Power-in-Community-460ac7d1d0c843feb87f333311bc1920?pvs=4',
           },
       ];
     
@@ -51,11 +51,10 @@ function Project(){
                 subtitle={cardData.subtitle}
                 desc={cardData.desc}
                 tags={cardData.tags}
-
+                link={cardData.link}
               />
             </div>
           ))}
-          
         </div>
         
         </>

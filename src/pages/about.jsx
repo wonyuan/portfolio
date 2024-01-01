@@ -50,30 +50,29 @@ function About(){
                 onClick={handleImageClick}
                 style={{ border: '3px solid #D8D8D8',overflow: 'hidden', objectFit: 'cover'}}/>
             )}
-            <p style={{ margin: '10px 0px 0px 0px' }}> ♪♫•*¨*•.¸¸♫♪ (switch the theme!) </p>
-            <hr class="dash" />
+            <p style={{ margin: '10px 0px 0px 0px' }}> ♪♫•*¨*•.¸¸♫♪ </p>
             <p style={{ margin: '10px 0px 0px 0px' }}>
-              hi there! i'm currently a sophmore student studying software engineering
-              at mcmaster university, 
+              hi there! i'm currently a 2nd year software engineering student
+              at mcmaster university.
               <br/>
               <br/>
-                            
+              i'm currently learning more about sustainability, system designs
+              <br/> and other creative disciplines :)
               <br/>
               <br/>
-              i'm also currently in some fun clubs 
+              i'm also currently:
               <ul>
                 <li>
-                graphics executive at mcmaster design league, helping curate
-                memorable designs and themations for the largest
+                a designer at  <a style={{ textDecoration:'underline' }} href="https://mcmasterdesignleague.com">mcmaster design league</a>
+                , helping curate a memorable experience for the largest
                 design competition in north america!
                 </li>
                 <li>
-                design graphics and themeing for deltahacks, 
-                a mcmaster student run hackathon
+                an executive at <a style={{ textDecoration:'underline' }} href="https://deltahacks.com">deltahacks</a>, a mcmaster student run hackathon
                 </li>
               </ul>
             </p>
-            <hr class="dash" />
+            <p style={{ margin: '10px 0px 15px 0px' }}> ♪♫•*¨*•.¸¸♫♪ </p>
         </>
     ) 
 
