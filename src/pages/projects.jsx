@@ -26,6 +26,7 @@ function Project(){
             subtitle: 'reverie',
             desc: 'workspace, streamlining all your study needs',
             tags: ['web dev', 'productivity', 'react'],
+            link: 'https://reverie-pomo.vercel.app',
           },
           {
             id: 'stylus',
