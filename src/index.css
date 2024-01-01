@@ -297,6 +297,9 @@ hr.dash{
   }
 }
 
+.sub-container:hover{
+  text-decoration: underline;
+}
 .diag-arrow {
   width: 22px;
   height: 22px;
