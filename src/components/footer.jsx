@@ -1,32 +1,32 @@
-import './footer.css'; 
+import './footer.css';
 
 function Footer() {
   return (
-    <div class="links">
-    <a 
-        title="linkedin" 
-        href="https://www.linkedin.com/in/catherine-yang52" 
+    <div className="links">
+      <a
+        href="https://www.linkedin.com/in/catherine-yang52"
         target="_blank"
-        class="fa fa-linkedin fa-2x">
-    </a>
-    <a 
-        title="some coding" 
-        href="https://github.com/wonyuan" 
+        className="fa fa-linkedin fa-2x"
+        title="linkedin"
+      ></a>
+      <a
+        href="https://github.com/wonyuan"
         target="_blank"
-        class="fa fa-github fa-2x">
-    </a>
-    <a 
-        title="contact me" 
-        href="https://www.instagram.com/57cathe/" 
+        className="fa fa-github fa-2x"
+        title="github"
+      ></a>
+      <a
+        href="https://www.instagram.com/57cathe/"
         target="_blank"
-        class="fa fa-instagram fa-2x">
-        </a>
-    <a 
-        title="misc" 
-        href="https://www.bento.me/cath" 
+        className="fa fa-instagram fa-2x"
+        title="insta"
+      ></a>
+      <a
+        href="https://www.bento.me/cath"
         target="_blank"
-        class="fa fa-folder fa-2x">
-        </a>
+        className="fa fa-folder fa-2x"
+        title="bento"
+      ></a>
     </div>
   );
 }
