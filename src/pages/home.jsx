@@ -1,11 +1,8 @@
 function Home(){
     return(
         <>
-            <h1>
-                hey there, 
-                <br/>
-                i'm catherine yang!
-            </h1>
+            <h1 className="top-h1" style={{ marginBottom:'0px' }}> hey there, </h1> 
+            <h1 style={{ marginTop:'0px' }}> i'm catherine yang!</h1>
             <p>
                 welcome to my <i>tiny</i> section of the internet!
                 <br/>

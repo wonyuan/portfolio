@@ -479,4 +479,6 @@ h3{
   opacity:60%;
 }
 
-
+.top-h1{
+  color: var(--color-secondary) !important;
+}

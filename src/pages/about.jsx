@@ -56,7 +56,7 @@ function About(){
               at mcmaster university.
               <br/>
               <br/>
-              i'm currently learning more about sustainability, system designs
+              when i'm not learning about how to be an engineer, i'm currently learning more about sustainability, system designs
               <br/> and other creative disciplines :)
               <br/>
               <br/>
