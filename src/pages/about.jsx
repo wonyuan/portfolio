@@ -53,11 +53,11 @@ function About(){
             <p style={{ margin: '10px 0px 0px 0px' }}> ♪♫•*¨*•.¸¸♫♪ </p>
             <p style={{ margin: '10px 0px 0px 0px' }}>
               hi there! i'm currently a 2nd year software engineering student
-              at mcmaster university.
+              at <a style={{ textDecoration:'underline' }} href="https://mcmaster.ca">mcmaster university</a>.
               <br/>
               <br/>
-              when i'm not learning about how to be an engineer, i'm currently learning more about sustainability, system designs
-              <br/> and other creative disciplines :)
+              when i'm not learning about how to be a better software engineer, i'm learning more about sustainability, system designs
+              <br/> and other creative disciplines :) (i love games and design!)
               <br/>
               <br/>
               i'm also currently:
@@ -68,7 +68,8 @@ function About(){
                 design competition in north america!
                 </li>
                 <li>
-                an executive at <a style={{ textDecoration:'underline' }} href="https://deltahacks.com">deltahacks</a>, a mcmaster student run hackathon
+                an executive at <a style={{ textDecoration:'underline' }} href="https://deltahacks.com">deltahacks</a>, 
+                one of the largest student run hackathons, taking place at mcmaster, where i'm currently designing the visual experience for hackers.
                 </li>
               </ul>
             </p>

@@ -38,23 +38,24 @@ function BrewCareer(){
             allowfullscreen>
             </iframe>
         </div>
-        <br/>
+        <h3>overview</h3>
         <p><i>
             36 hours, 1 ux designer, 3 product designers
         </i></p>
+        <p>my roles for this project were <b>ui/ux designer, branding, prototyping and user testing.</b></p>
+        <p>our team was awarded <b>2nd best overall.</b></p>
         
         <h3> problem </h3>
-        <p>
+        <p style={{marginBottom:'35px'}}>
         submitted as a part of the uwaterloo's first designathon ctrl + y, the presented problem
         required us to find an empowering solution for job seekers and independent workers
         looking to find projects, networks, and ways to navigate the current job market.
         <br/>
         <br/>
-        as a result of there being a diverse of pre-existing solutions in the market alr, (ex.
-        ripple, linkedin, indeed...) we put extra emphasis on narrowing down a more specific
-        problem within the industry, being meaningful networking.
+        as a result of there being a diverse number of pre-existing solutions in the market, (ex.
+        ripple, linkedin, indeed...) we put an extra emphasis on narrowing down a more specific
+        problem within the industry, <b>being meaningful networking</b>.
         </p>
-        <br/>
         <h3> solution</h3>
         <p>
         after planning for (nearly) half a day, we were able to decide on the three main features of
@@ -65,8 +66,35 @@ function BrewCareer(){
         <li>community-initiated projects for growing professionals</li>
         </ol>
         </p>
-        
-
+        <div class="proj-img-container">
+          <img src="/brew2.png" alt="Project Image" class="proj-img"></img>
+          <span class="hover-text">preliminary brainstorming and planning</span>
+        </div>
+        <br/>
+        <p>utilizing user personas, we finally had a vision of the ui for our project, ensuring 
+        accessibility as well as aesthetics. some of the key ideas we were able to piece out were:
+        </p>
+        <ul>
+          <li>what are some blockers that prevent one from networking?</li>
+          <li>what do you wish was more convenient in the job-hunt process?</li>
+          <li>when have you been able to create a long-lasting connection?</li>
+        </ul>
+        <div class="proj-img-container">
+          <img src="/brew3.png" alt="brew3 img" class="proj-img"></img>
+          <span class="hover-text">sarah, a recently laid off <br/>professional looking for work</span>
+        </div>
+        <br/>
+        <h3>user flow</h3>
+        <div class="proj-img-container">
+          <img src="/brew5.png" alt="brew3 img" class="proj-img"></img>
+          <span class="hover-text">flow analysis of the initial prototype</span>
+        </div>
+        <h3>delivery</h3>
+          <p>
+          after demoing our final product to the judges, we were able to win 2nd place overall out of the 20
+          competing groups at the designathon! being my first designathon, i got to really put my mind to the
+          entire design process––from the initial ideation to the final prototyping, and all in 36 hours!
+          </p>
         </div>
         
         </>

@@ -11,6 +11,7 @@ import DirectU from './pages/directu.jsx';
 import BrewCareer from './pages/brewcareer.jsx';
 import About from './pages/about.jsx';
 import NavBar from './components/nav.jsx';
+import Scroll from './components/scroll.jsx';
 import './App.css';
 
 function PageRouter(){
@@ -44,11 +45,13 @@ function PageRouter(){
             <div id='footer'>
               <Footer/>
             </div>
+
             </div>
         </div>
         <div className='flex-container' id='inner'/>
       </div>
       <div className='flex-container' id='border'/>
+      <Scroll showScrollUp="scroll" scrollUp={() => window.scrollTo(0, 0)} />
       </div>
     );
 }
@@ -118,6 +121,7 @@ function DesignRouter(){
         <div className='flex-container' id='inner'/>
       </div>
       <div className='flex-container' id='border'/>
+      <Scroll showScrollUp="scroll" scrollUp={() => window.scrollTo(0, 0)} />
       </div>
     );
 
@@ -139,6 +143,7 @@ function App() {
         <Route path="/design/*" element={<DesignRouter />}/>
       </Routes>
       </div>
+      
     </BrowserRouter>
     );
 }

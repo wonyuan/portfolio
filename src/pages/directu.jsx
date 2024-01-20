@@ -67,9 +67,12 @@ function DirectU(){
         of their goals, learning preferences, etc, scores were then assigned and used to 
         determine the courses best fit for the individual.
         <br/>
-        <br/>
+        <h3>delivery</h3>
+        <p> i took on tasks defining visual design and front-end development, utilizing figma
+        and react to implement key features of our product. i was able to learn how to use a lot
+        of new tools during the 48 hours, from database management and API endpoint connection.</p>
         as my very first hackathon, i learned a lot from both my teammates and myself. 
-        we were even able to win first place for the <i>Best Use of Cohere</i> award, against
+        we were even able to win first place for the <b>Best Use of Cohere</b> award out of
         248 teams which was super exciting!
 
         </p>
