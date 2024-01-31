@@ -15,7 +15,7 @@ function Design(){
           },
           {
             id: "bigcafe",
-            cover: '',
+            cover: '/white.jpeg',
             subtitle: 'big cafe',
             desc: 'new startings for a popular coffee chain',
             tags: ['design','mobile app','figma'],

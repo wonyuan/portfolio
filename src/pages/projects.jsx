@@ -11,11 +11,11 @@ function Project(){
             cover: '/directu.png',
             subtitle: 'directu',
             desc: 'your degree without the hassle',
-            tags: ['web dev', 'react', 'flask','python','cohere'],
+            tags: ['react', 'flask','python','cohere','mongoDB'],
           },
           {
             id: 'sidealong',
-            cover: '',
+            cover: '/white.jpeg',
             subtitle: 'side-along',
             desc: 'a friend is waiting to hear about your day...',
             tags: ['chrome ext','javascript'],
@@ -30,7 +30,7 @@ function Project(){
           },
           {
             id: 'stylus',
-            cover: '',
+            cover: '/white.jpeg',
             subtitle: 'tectron stylus',
             desc: 'stylus designed to aid individuals with weak fine motor skills',
             tags: ['product design','arduino','inventor'],

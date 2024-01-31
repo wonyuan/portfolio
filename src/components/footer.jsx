@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className="links">
       <a
-        href="https://www.linkedin.com/in/catherine-yang52"
+        href="https://www.linkedin.com/in/yangc137"
         target="_blank"
         className="fa fa-linkedin fa-2x"
         title="linkedin"
@@ -32,3 +32,4 @@ function Footer() {
 }
 
 export default Footer;
+ 
