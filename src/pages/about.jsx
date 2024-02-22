@@ -52,24 +52,24 @@ function About(){
             )}
             <p style={{ margin: '10px 0px 0px 0px' }}> ♪♫•*¨*•.¸¸♫♪ </p>
             <p style={{ margin: '10px 0px 0px 0px' }}>
-              hi there! i'm currently a 2nd year software engineering student
-              at <a style={{ textDecoration:'underline' }} href="https://mcmaster.ca">mcmaster university</a>.
+              hi there! i'm currently a 2nd year software engineering student studying
+              at <a style={{ textDecoration:'underline' }} href="https://mcmaster.ca">mcmaster university</a>, in hamilton, ontario.
               <br/>
               <br/>
-              when i'm not learning about how to be a better software engineer, i'm learning more about sustainability, system designs
-              <br/> and other creative disciplines :) (i love games and design!)
+              when i'm not learning about how to be a better software engineer, you can find me swimming, learning more about sustainability and system designs,
+              and indulging in creative disciplines :) (i've got a deep love for world exploration games and design) 
               <br/>
               <br/>
               i'm also currently:
               <ul>
                 <li>
-                a designer at  <a style={{ textDecoration:'underline' }} href="https://mcmasterdesignleague.com">mcmaster design league</a>
+                a design executive at  <a style={{ textDecoration:'underline' }} href="https://mcmasterdesignleague.com">mcmaster design league</a>
                 , helping curate a memorable experience for the largest
                 design competition in north america!
                 </li>
                 <li>
-                an executive at <a style={{ textDecoration:'underline' }} href="https://deltahacks.com">deltahacks</a>, 
-                one of the largest student run hackathons, taking place at mcmaster, where i'm currently designing the visual experience for hackers.
+                a design executive at <a style={{ textDecoration:'underline' }} href="https://deltahacks.com">deltahacks</a>, 
+                one of the largest student run hackathons, taking place at mcmaster, where i'm also currently designing the visual experience for hackers.
                 </li>
               </ul>
             </p>

@@ -30,7 +30,7 @@ const TypingComp = ({ words, colors }) => {
 function Home() {
   const [wordIndex, setWordIndex] = useState(0);
   const words = ['student', 'developer', 'designer', 'snack enthusiast'];
-  const colors = ['var(--carousel-primary)', 'var(--carousel-secondary)','var(--carousel-tertiary)', 'var(--carousel-quaternary)']; 
+  const colors = ['var(--color-secondary)', 'var(--color-secondary)','var(--color-secondary)', 'var(--color-secondary)']; 
 
   useEffect(() => {
     const interval = setInterval(() => {
