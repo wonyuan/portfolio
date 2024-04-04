@@ -14,11 +14,11 @@ function Project(){
             tags: ['react', 'flask','python','cohere','mongoDB'],
           },
           {
-            id: 'sidealong',
-            cover: '/white.jpeg',
-            subtitle: 'side-along',
-            desc: 'a friend is waiting to hear about your day...',
-            tags: ['chrome ext','javascript'],
+            id: 'kubzco',
+            cover: '/kubz.png',
+            subtitle: 'kubzco design',
+            desc: 'redesigned ecommerce front for a local toronto-owned business',
+            tags: ['react','javascript','nodejs', 'stripe'],
           },
           {
             id: 'reverie',
@@ -30,11 +30,18 @@ function Project(){
           },
           {
             id: 'stylus',
-            cover: '/white.jpeg',
+            cover: '/stylus.png',
             subtitle: 'tectron stylus',
             desc: 'stylus designed to aid individuals with weak fine motor skills',
             tags: ['product design','arduino','inventor'],
             link: 'https://peat-forest-c80.notion.site/Project-4-Power-in-Community-460ac7d1d0c843feb87f333311bc1920?pvs=4',
+          },
+          {
+            id: 'sidealong',
+            cover: '/white.jpeg',
+            subtitle: 'side-along',
+            desc: 'a friend is waiting to hear about your day...',
+            tags: ['chrome ext','javascript'],
           },
       ];
     
