@@ -1,5 +1,4 @@
 import Card from '../components/card.jsx';
-import { Link } from 'react-router-dom';
 import '../components/card.css'; 
 import '../index.css'
 
@@ -11,14 +10,30 @@ function Project(){
             cover: '/directu.png',
             subtitle: 'directu',
             desc: 'your degree without the hassle',
-            tags: ['react', 'flask','python','cohere','mongoDB'],
+            tags: ['react', 'python','cohere','mongoDB'],
+          },
+          // {
+          //   id: 'kubzco',
+          //   cover: '/kubz.png',
+          //   subtitle: 'kubzco design',
+          //   desc: 'redesigned ecommerce front for a local toronto-owned business',
+          //   tags: ['react','javascript','nodejs', 'stripe'],
+          // },
+          {
+            id: 'linkedOut',
+            cover: '/linkedout2.png',
+            subtitle: 'linkedOut',
+            desc: 'an any mans stepping stone to efficient networking',
+            tags: ['react','typescript','python', 'cohere', 'mongoDB'],
+            link: 'https://github.com/wonyuan/linkedout',
           },
           {
-            id: 'kubzco',
-            cover: '/kubz.png',
-            subtitle: 'kubzco design',
-            desc: 'redesigned ecommerce front for a local toronto-owned business',
-            tags: ['react','javascript','nodejs', 'stripe'],
+            id: '101districts',
+            cover: '/101districts.png',
+            subtitle: '101districts',
+            desc: 'helping you fast track all the bad parts of vacationing',
+            tags: ['react','typescript','gemini-ai', 'firebase'],
+            link: 'https://github.com/wonyuan/101districts'
           },
           {
             id: 'reverie',
@@ -36,13 +51,13 @@ function Project(){
             tags: ['product design','arduino','inventor'],
             link: 'https://peat-forest-c80.notion.site/Project-4-Power-in-Community-460ac7d1d0c843feb87f333311bc1920?pvs=4',
           },
-          {
-            id: 'sidealong',
-            cover: '/white.jpeg',
-            subtitle: 'side-along',
-            desc: 'a friend is waiting to hear about your day...',
-            tags: ['chrome ext','javascript'],
-          },
+          // {
+          //   id: 'sidealong',
+          //   cover: '/white.jpeg',
+          //   subtitle: 'side-along',
+          //   desc: 'a friend is waiting to hear about your day...',
+          //   tags: ['chrome ext','javascript'],
+          // },
       ];
     
       return (

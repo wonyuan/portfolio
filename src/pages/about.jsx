@@ -1,5 +1,4 @@
-import ToggleTheme from '../components/logo.jsx';
-import React, { useContext, useState } from 'react';
+import { useContext, useState } from 'react';
 import { ThemeContext } from "../Theme.jsx";
 
 /* 
@@ -13,6 +12,28 @@ import { ThemeContext } from "../Theme.jsx";
 function About(){
     const { theme, toggleTheme } = useContext(ThemeContext);
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+    const previousInternships = [
+      {
+        company: 'Euna Solutions',
+        role: 'Software Developer Intern',
+        desc: 'etc',
+      },
+      {
+        company: 'Kubzco Design ',
+        role: 'Web Developer Volunteer',
+        desc: 'etc',
+      },
+    ];
+
+    const currentInternships = [
+      {
+        company: 'McMaster Eng. Society',
+        role: 'UX Designer',
+        desc: 'etc',
+      },
+    ];
+  
 
     const morning = [
         '/gonghang.jpeg',
@@ -52,18 +73,41 @@ function About(){
             )}
             <p style={{ margin: '10px 0px 0px 0px' }}> ♪♫•*¨*•.¸¸♫♪ </p>
             <p style={{ margin: '10px 0px 0px 0px' }}>
-              hi there! i'm currently a 2nd year software engineering student studying
+              hi there! i'm currently a 3rd year software engineering student studying
               at <a style={{ textDecoration:'underline' }} href="https://mcmaster.ca">mcmaster university</a>, in hamilton, ontario.
               <br/>
               <br/>
               when i'm not learning about how to be a better software engineer, you can find me swimming, learning more about sustainability and system designs,
-              and indulging in creative disciplines :) (i've got a deep love for world exploration games and design) 
+              and indulging in creative disciplines (i've got a deep love for world exploration games and design) 
               <br/>
               <br/>
-              i'm also currently:
+              previously,
+              <br/>
+              <div className="internship-grid">
+                {previousInternships.map((internship, index) => (
+                  <div key={index} className="internship-card">
+                    <div className="internship-text">
+                      <p className="internship-role">{internship.role}</p>
+                      <p className="internship-company">@ {internship.company}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <br/>
+              and currently, 
+              <div className="internship-grid">
+                {currentInternships.map((internship, index) => (
+                  <div key={index} className="internship-card">
+                    <div className="internship-text">
+                      <p className="internship-role">{internship.role}</p>
+                      <p className="internship-company">@ {internship.company}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
               <ul>
                 <li>
-                a design executive at  <a style={{ textDecoration:'underline' }} href="https://mcmasterdesignleague.com">mcmaster design league</a>
+                also, a design executive at  <a style={{ textDecoration:'underline' }} href="https://mcmasterdesignleague.com">mcmaster design league</a>
                 , helping curate a memorable experience for the largest
                 design competition in north america!
                 </li>

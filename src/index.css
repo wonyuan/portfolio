@@ -214,7 +214,7 @@ hr.dash{
 }
 
 #logo img:hover{
-  opacity: 0.9;
+  opacity: 0.75;
 }
 
 #nav-bar a{
@@ -582,6 +582,7 @@ h3{
   color: var(--color-secondary);
   border: 3px solid var(--main-color);
 }
+
 @keyframes movebtn {
   0%{
     transform: translateY(0px);
@@ -592,4 +593,47 @@ h3{
   100%{
     transform: translateY(0px);
   }
+}
+
+.internship-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  justify-items: center;
+  margin-top: 10px;
+}
+
+/* Card styling */
+.internship-card {
+  width: 180px;
+  height: 30px;
+  border-radius: 10px; /* Rounded edges */
+  background-color: var(--background-primary);
+  border: 2px solid var(--main-color); /* Border color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  transition: transform 0.2s; /* Add hover effect */
+}
+
+.internship-card:hover {
+  transform: scale(1.05); /* Slight scale on hover */
+}
+
+/* Text inside the card */
+.internship-text {
+  text-align: center;
+}
+
+.internship-role {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.internship-company {
+  font-size: 14px;
+  margin: 5px 0 0;
 }

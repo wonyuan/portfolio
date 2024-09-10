@@ -28,16 +28,7 @@ const TypingComp = ({ words, colors }) => {
 };
 
 function Home() {
-  const [wordIndex, setWordIndex] = useState(0);
-  const words = ['student', 'developer', 'designer', 'snack enthusiast'];
   const colors = ['var(--color-secondary)', 'var(--color-secondary)','var(--color-secondary)', 'var(--color-secondary)']; 
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setWordIndex((wordIndex) => (wordIndex + 1) % words.length);
-    }, 2200);
-    return () => clearInterval(interval);
-  }, [words]);
 
   return (
     <>
@@ -45,15 +36,12 @@ function Home() {
         hey there,
       </h1>
       <h1 style={{ marginTop: '0px', marginBottom: '0px' }}> i'm catherine yang!</h1>
-      <h3 className='spesh' style={{ marginTop: '5px' }}>
-        a <TypingComp words={words} colors={colors} />
-      </h3>
       <br />
       <p>
         welcome to my <i>tiny</i> section of the internet!
         <br />
         <br />
-        i'm currently a 2nd year software engineering student studying at mcmaster university, hamilton, where I spend my days uncovering new technologies and creating the ideal schedule.
+        i'm currently a 3rd year software engineering student studying at mcmaster university, hamilton, where I spend my days uncovering new technologies and creating the ideal schedule.
         <br />
         <br />
         you can reach me at yangc137@mcmaster.ca anytime
