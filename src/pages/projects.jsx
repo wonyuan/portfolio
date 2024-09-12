@@ -33,7 +33,7 @@ function Project(){
             subtitle: '101districts',
             desc: 'helping you fast track all the bad parts of vacationing',
             tags: ['react','typescript','gemini-ai', 'firebase'],
-            link: 'https://github.com/wonyuan/101districts'
+            link: 'https://101districts.vercel.app'
           },
           {
             id: 'reverie',
