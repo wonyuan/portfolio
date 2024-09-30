@@ -21,7 +21,7 @@ function Project(){
           // },
           {
             id: 'linkedOut',
-            cover: '/linkedout2.png',
+            cover: '/linkedout.png',
             subtitle: 'linkedOut',
             desc: 'an any mans stepping stone to efficient networking',
             tags: ['react','typescript','python', 'cohere', 'mongoDB'],
