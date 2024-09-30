@@ -9,7 +9,7 @@ function Project(){
             id: 'directu',
             cover: '/directu.png',
             subtitle: 'directu',
-            desc: 'your degree without the hassle',
+            desc: 'your degree without the hassle, won 1st for best use of cohere 🏆 ',
             tags: ['react', 'python','cohere','mongoDB'],
           },
           // {
