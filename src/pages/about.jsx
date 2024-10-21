@@ -29,9 +29,14 @@ function About(){
     const currentInternships = [
       {
         company: 'McMaster Eng. Society',
-        role: 'UX Designer',
+        role: 'Frontend Developer',
         desc: 'etc',
       },
+      {
+        company: 'Develop for Good',
+        role: 'Software Engineer',
+        desc: 'etc',
+      }
     ];
   
 
