@@ -9,7 +9,7 @@ function Project(){
             id: 'directu',
             cover: '/directu.png',
             subtitle: 'directu',
-            desc: 'your degree without the hassle, won 1st for best use of cohere 🏆 ',
+            desc: 'your degree without the hassle, won 1st for best use of cohere @ hack the north 2023 🏆 ',
             tags: ['react', 'python','cohere','mongoDB'],
           },
           // {
@@ -20,9 +20,9 @@ function Project(){
           //   tags: ['react','javascript','nodejs', 'stripe'],
           // },
           {
-            id: 'linkedOut',
+            id: 'linkedout',
             cover: '/linkedout.png',
-            subtitle: 'linkedOut',
+            subtitle: 'linkedout',
             desc: 'an any mans stepping stone to efficient networking',
             tags: ['react','typescript','python', 'cohere', 'mongoDB'],
             link: 'https://github.com/wonyuan/linkedout',
@@ -36,20 +36,20 @@ function Project(){
             link: 'https://101districts.vercel.app'
           },
           {
+            id: 'monster royale',
+            cover: '/msw.jpeg',
+            subtitle: 'maple tactics',
+            desc: 'a tft inspired auto chess battler game with a maplestory twist, \b \b  \b \b top 10 @ maplejam 2024',
+            tags: ['lua','msw','game dev'],
+            link: 'https://peat-forest-c80.notion.site/Project-4-Power-in-Community-460ac7d1d0c843feb87f333311bc1920?pvs=4',
+          },
+          {
             id: 'reverie',
             cover: '/reverie.png',
             subtitle: 'reverie',
             desc: 'workspace, streamlining all your study needs',
             tags: ['web dev', 'productivity', 'react'],
             link: 'https://reverie-pomo.vercel.app',
-          },
-          {
-            id: 'stylus',
-            cover: '/stylus.png',
-            subtitle: 'tectron stylus',
-            desc: 'stylus designed to aid individuals with weak fine motor skills',
-            tags: ['product design','arduino','inventor'],
-            link: 'https://peat-forest-c80.notion.site/Project-4-Power-in-Community-460ac7d1d0c843feb87f333311bc1920?pvs=4',
           },
           // {
           //   id: 'sidealong',
