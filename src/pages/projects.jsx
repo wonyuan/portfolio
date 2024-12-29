@@ -39,9 +39,9 @@ function Project(){
             id: 'monster royale',
             cover: '/msw.jpeg',
             subtitle: 'maple tactics',
-            desc: 'a tft inspired auto chess battler game with a maplestory twist, \b \b  \b \b top 10 @ maplejam 2024',
+            desc: 'a tft inspired auto chess battler game with a maplestory twist, available on maplestory worlds',
             tags: ['lua','msw','game dev'],
-            link: 'https://peat-forest-c80.notion.site/Project-4-Power-in-Community-460ac7d1d0c843feb87f333311bc1920?pvs=4',
+            link: '',
           },
           {
             id: 'reverie',
