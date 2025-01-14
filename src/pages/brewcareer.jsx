@@ -40,7 +40,7 @@ function BrewCareer(){
         </div>
         <h3>overview</h3>
         <p><i>
-            36 hours, 1 ux designer, 3 product designers
+            36 hours, 2 ux researchers, 2 product designers
         </i></p>
         <p>my roles for this project were <b>ui/ux designer, branding, prototyping and user testing.</b></p>
         <p>our team was awarded <b>2nd best overall.</b></p>
