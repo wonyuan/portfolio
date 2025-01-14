@@ -9,7 +9,7 @@ function Design(){
             id: "brewcareer",
             cover: '/brewcareer.png',
             subtitle: 'brewcareer',
-            desc: 'networking, but make it a little less intimidating and a little more intuitive',
+            desc: 'networking, but make it a little less intimidating and a little more intuitive, won 2nd @ CTRL + Y designathon 2023 🏆',
             tags: ['design','web app','figma'],
 
           },
