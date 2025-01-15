@@ -1,36 +1,46 @@
 .card-box {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column; /* Stack cards vertically */
+    gap: 16px; /* Space between cards */
 }
 
-.card-boxes{
-    width:45%;
+.card-boxes, .card-boxes-des {
+    width: 95%; 
     margin-bottom: 16px;
     box-sizing: border-box;
 }
-
-.card-boxes-des{
-    width:100%;
-    margin-bottom: 16px;
-    box-sizing: border-box;
-}
-
-.cover {
-    height: 180px;
-    border: 3px solid #715555;
+  
+  .cover {
+    height: 260px;
+    border: 2px solid #715555;
     background-size: cover;
     background-position: center;
     transition: opacity 0.5s ease-out;
     margin-bottom: 5px;
-}
-
-.cover:hover{
-    opacity: 0.8;
-}
+    position: relative;
+    z-index: 1;
+  }
+  
+  .cover::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;  /* Offset downward */
+    right: -8px;   /* Offset to the right */
+    width: calc(100% - 16px); /* Extend the width to include offset */
+    height: calc(100% - 16px); /* Extend the height to include offset */
+    border-bottom: 6px solid var(--color-tertiary); /* Red bottom border */
+    border-right: 6px solid var(--color-tertiary);  /* Red right border */
+    z-index: 0; /* Place behind the cover */
+    opacity: 0;
+  }
+  
+  .cover:hover::after {
+    opacity: 1;
+  }
+  
 
 .subtitle{
-    margin-top: 0px;
+    margin-top: 6px;
     margin-bottom: 0px;
     font-weight: bold;
 }

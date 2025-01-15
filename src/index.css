@@ -389,7 +389,7 @@ hr.dash{
   border: 2.2px solid var(--main-color); /* Add border styling */
   border-radius: 15px;
   padding: 4px 10px;
-  margin-right: 3px;
+  margin-right: 5px;
   margin-bottom: 3px;
   cursor: pointer;
   transition: transform 0.3s ease, fill 0.3s ease;
@@ -567,20 +567,13 @@ h3{
 }
 .icon-style{
   background-color: var(--background-primary);
-  border: 3px solid var(--main-color);
-  border-radius: 50%;
+
   height: 50px;
   width: 50px;
   color: var(--main-color);
   cursor: pointer;
   animation: movebtn 3s ease-in-out infinite;
   transition: all .5s ease-in-out;
-}
-.icon-style:hover{
-  animation: none;
-  background: var(--background-primary);
-  color: var(--color-secondary);
-  border: 3px solid var(--main-color);
 }
 
 @keyframes movebtn {

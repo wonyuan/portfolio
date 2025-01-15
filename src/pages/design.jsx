@@ -10,7 +10,15 @@ function Design(){
             cover: '/brewcareer.png',
             subtitle: 'brewcareer',
             desc: 'networking, but make it a little less intimidating and a little more intuitive, won 2nd @ CTRL + Y designathon 2023 🏆',
-            tags: ['design','web app','figma'],
+            tags: ['figma','design','web app','networking'],
+
+          },
+          {
+            id: "propellearn",
+            cover: '/propellearn.png',
+            subtitle: 'propellearn',
+            desc: "education isn't stagnant. pinpoint your weak spots, track your growth, and watch teaching become easier. ",
+            tags: ['figma','design', 'user research','web app', 'education'],
 
           },
       ];

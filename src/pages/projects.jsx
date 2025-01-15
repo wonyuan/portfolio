@@ -7,7 +7,7 @@ function Project(){
     const cardDataSets = [
         {
             id: 'directu',
-            cover: '/directu.png',
+            cover: '/directu.gif',
             subtitle: 'directu',
             desc: 'your degree without the hassle, won 1st for best use of cohere @ hack the north 2023 🏆 ',
             tags: ['react', 'python','cohere','mongoDB'],
@@ -21,7 +21,7 @@ function Project(){
           // },
           {
             id: 'linkedout',
-            cover: '/linkedout.png',
+            cover: '/linkedout.gif',
             subtitle: 'linkedout',
             desc: 'an any mans stepping stone to efficient networking',
             tags: ['react','typescript','python', 'cohere', 'mongoDB'],
