@@ -17,7 +17,7 @@ function Design(){
             id: "propellearn",
             cover: '/propellearn.png',
             subtitle: 'propellearn',
-            desc: "education isn't stagnant. pinpoint your weak spots, track your growth, and watch teaching become easier. ",
+            desc: "education isn't stagnant. pinpoint your weak spots, track your growth, and propel your teaching forwards. [a case study] ",
             tags: ['figma','design', 'user research','web app', 'education'],
 
           },
