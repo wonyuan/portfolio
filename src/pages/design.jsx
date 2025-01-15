@@ -21,6 +21,13 @@ function Design(){
             tags: ['figma','design', 'user research','web app', 'education'],
 
           },
+          /*{
+            id: "mdl",
+            cover: '/testing.png',
+            subtitle: "graphics for the mdl cadathon 2024",
+            desc: "the adventure-based pixel world that another designer and i created in promotion of the mdl cadathon 2024.",
+            tags: ['figma','graphic design', 'pixel art','aesprite'],
+          }*/
       ];
     
       return (
@@ -40,7 +47,19 @@ function Design(){
               />
             </div>
           ))}
-          
+          <div className='card-boxes-des'>
+            <img src='/mdl2024.png'
+              className="proj-img"
+              style={{ width:'100%', height:'100%', overflow: 'hidden', objectFit: 'cover'}}
+            />
+            <Card 
+              path="/design"
+              id="mdl"
+              subtitle='graphics for the mdl cadathon 2024'
+              desc='the adventure-based pixel world that another designer and i created in promotion of the mdl cadathon 2024. [each square is an individual poster!]'
+              tags={['figma','graphic design', 'pixel art','aesprite']}
+            />
+          </div>
         </div>
         
         </>

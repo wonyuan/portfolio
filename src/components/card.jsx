@@ -10,7 +10,7 @@ const Card = ({ id, cover, subtitle, desc, path, tags, link }) => {
     <div className="card">
       <Link to={linkDest.to}>
 
-        <div className="cover" style={{ backgroundImage: `url(${cover})` }}></div>
+      {cover && (<div className="cover" style={{ backgroundImage: `url(${cover})` }}></div>)}
         <div className="sub-container">
           <p className="subtitle">{subtitle}</p>
           <svg
