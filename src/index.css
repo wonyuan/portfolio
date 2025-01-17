@@ -90,6 +90,13 @@ ul{
   color: var(--main-color);
 }
 
+.thin-divider {
+  border-top: 1px solid var(--carousel-primary); /* Adjust color as needed */
+  margin: 5px 0;
+  width: 100%; /* Full width of the container */
+}
+
+
 body {
   background-color: var(--background-primary);
   margin: 0;
@@ -123,7 +130,7 @@ hr.dash{
 }
 
 .abt-img{
-  width:90%;
+  width:98%;
   height:270px;
   object-fit: cover;
   transition: opacity 0.5s ease-out;

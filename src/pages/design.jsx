@@ -48,15 +48,15 @@ function Design(){
             </div>
           ))}
           <div className='card-boxes-des'>
-            <img src='/mdl2024.png'
+            <img src='/testing.png'
               className="proj-img"
-              style={{ width:'100%', height:'100%', overflow: 'hidden', objectFit: 'cover'}}
+              style={{ width:'100%', height:'100%', overflow: 'visible', objectFit: 'cover'}}
             />
             <Card 
               path="/design"
               id="mdl"
               subtitle='graphics for the mdl cadathon 2024'
-              desc='the adventure-based pixel world that another designer and i created in promotion of the mdl cadathon 2024. [each square is an individual poster!]'
+              desc='an adventure-based pixel world created in promotion of the mdl cadathon 2024. [each square is an individual poster!]'
               tags={['figma','graphic design', 'pixel art','aesprite']}
             />
           </div>

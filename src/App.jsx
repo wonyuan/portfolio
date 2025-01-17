@@ -9,6 +9,7 @@ import Design from './pages/design.jsx';
 import Manifesto from './pages/manifesto.jsx';
 import DirectU from './pages/directu.jsx';
 import BrewCareer from './pages/brewcareer.jsx';
+import Propellearn from './pages/propellearn.jsx';
 import About from './pages/about.jsx';
 import NavBar from './components/nav.jsx';
 import Scroll from './components/scroll.jsx';
@@ -114,6 +115,7 @@ function DesignRouter(){
               <Routes>
                 <Route path="/" element={<Design />} />
                 <Route path="/brewcareer" element={<BrewCareer />} />
+                <Route path="/propellearn" element={<Propellearn />} />
               </Routes>
 
             </div>

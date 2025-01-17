@@ -68,12 +68,12 @@ function About(){
                 <img src={currentImage}
                 className="abt-img"
                 onClick={handleImageClick}
-                style={{ border: '3px solid #715555', overflow: 'hidden', objectFit: 'cover'}}/>
+                style={{ border: '2px solid #715555', overflow: 'hidden', objectFit: 'cover'}}/>
                 ) : (
                 <img src={currentImage}
                 className="abt-img"
                 onClick={handleImageClick}
-                style={{ border: '3px solid #D8D8D8',overflow: 'hidden', objectFit: 'cover'}}/>
+                style={{ border: '2px solid #D8D8D8',overflow: 'hidden', objectFit: 'cover'}}/>
             )}
             <p style={{ color: "var(--color-secondary)"}}><i>some of my favourite photos</i></p>
             <p style={{ margin: '10px 0px 0px 0px' }}> ♪♫•*¨*•.¸¸♫♪ </p>
