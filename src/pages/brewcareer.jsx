@@ -1,7 +1,4 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import Return from '../components/return.jsx';
-import Carousel from '../components/carousel.jsx';
 
 /*
 <FontAwesomeIcon icon={faArrowLeft} size="1x" style={{ marginRight: '30px' }}/>
@@ -91,9 +88,12 @@ function BrewCareer(){
         </div>
         <h3>delivery</h3>
           <p>
-          after demoing our final product to the judges, we were able to win 2nd place overall out of the 20
-          competing groups at the designathon! being my first designathon, i got to really put my mind to the
-          entire design process––from the initial ideation to the final prototyping, and all in 36 hours!
+          after demoing our final product to the judges, we were able to win 2nd place overall! being my first designathon, i got to really put my mind to the
+          entire design process––from the initial ideation to the final prototyping, and all in 36 hours which was incredibly fun. 
+          <br/>
+          <br/>
+          if i took anything from this event, it's that no design work is ever wasted. although the process was grueling,
+          every iteration gave us a new idea and was a stepping stone to the final product. documentation is key!
           </p>
         </div>
         
