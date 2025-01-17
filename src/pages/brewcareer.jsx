@@ -45,13 +45,13 @@ function BrewCareer(){
         <h3> problem </h3>
         <p style={{marginBottom:'35px'}}>
         submitted as a part of the uwaterloo's first designathon ctrl + y, the presented problem
-        required us to find an empowering solution for job seekers and independent workers
-        looking to find projects, networks, and ways to navigate the current job market.
+        required us to find an empowering solution to networking for job seekers and independent workers.
         <br/>
         <br/>
         as a result of there being a diverse number of pre-existing solutions in the market, (ex.
         ripple, linkedin, indeed...) we put an extra emphasis on narrowing down a more specific
-        problem within the industry, <b>being meaningful networking</b>.
+        problem within the industry, being the <b> opportunities that come with meaningful networking</b>.
+        this includes, projects, seeking mentors, and communities that align with your interests and goals.
         </p>
         <h3> solution</h3>
         <p>
