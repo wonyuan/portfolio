@@ -26,7 +26,10 @@ function Propellearn(){
             src="https://embed.figma.com/proto/YkdfYe6Q97Eh8bn4ZjwFZ7/propellearn?node-id=125-755&scaling=scale-down-width&content-scaling=fixed&page-id=7%3A50&starting-point-node-id=125%3A755&embed-host=share" allowfullscreen>        
           </iframe>
         </div>
-        <h2>course evaluations: action plans</h2>
+        <h2>course evaluations: action plans what makes course evaluations </h2>
+        <p> in order to combat the lack of action being made for course evaluations, i 
+          dived into their world and experimented with a new way to bring interaction and value to student feedback.
+        </p>
         <div className="thin-divider"></div>
         <h3>overview</h3>
         <p><i>
@@ -38,7 +41,7 @@ function Propellearn(){
         </i></p>
         <h3> problem </h3>
         <p style={{marginBottom:'35px'}}>
-        course evaluations have been a main tool in the assessment and improve of education, 
+        course evaluations have been a main tool in the assessment and improvement of education for decades, 
         providing valuable insights into course design, teaching effectiveness, and student engagement.
         yet, current systems often leave professors overwhelmed by unstructured data, 
         open-ended comments, and lots and lots of jargon without providing clear guidance on how to act. 

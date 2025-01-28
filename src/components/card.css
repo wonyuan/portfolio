@@ -28,8 +28,8 @@
     right: -8px;   /* Offset to the right */
     width: calc(100% - 8px); /* Extend the width to include offset */
     height: calc(100% - 8px); /* Extend the height to include offset */
-    border-bottom: 6px solid var(--color-tertiary); /* Red bottom border */
-    border-right: 6px solid var(--color-tertiary);  /* Red right border */
+    border-bottom: 6px solid var(--backing); /* Red bottom border */
+    border-right: 6px solid var(--backing);  /* Red right border */
     z-index: 0; /* Place behind the cover */
     opacity: 0;
   }
