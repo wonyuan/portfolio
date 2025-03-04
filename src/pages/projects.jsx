@@ -6,6 +6,14 @@ function Project(){
 
     const cardDataSets = [
         {
+          id: 'talktome',
+          cover: '/talktome.gif',
+          subtitle: 'talktome',
+          desc: 'healing parent-child relations, won 3rd place overall @ ellehacks 2025 🏆 ',
+          tags: ['react', 'node.js','cohere'],
+          link: 'https://github.com/wonyuan/talktome'
+        },
+        {
             id: 'directu',
             cover: '/directu.gif',
             subtitle: 'directu',
@@ -24,7 +32,7 @@ function Project(){
             cover: '/linkedout.gif',
             subtitle: 'linkedout',
             desc: 'an any mans stepping stone to efficient networking',
-            tags: ['react','typescript','python', 'cohere', 'mongoDB'],
+            tags: ['react','python', 'cohere', 'mongoDB'],
             link: 'https://github.com/wonyuan/linkedout',
           },
           {
