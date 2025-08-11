@@ -38,13 +38,13 @@ function Home() {
       <h1 style={{ marginTop: '0px', marginBottom: '0px' }}> i'm catherine yang!</h1>
       <br />
       <p>
-        welcome to my <i>tiny</i> section of the internet!
+        an engineering student living in beautiful (usually) 27°C toronto.
         <br />
         <br />
-        i'm currently a 3rd year software engineering student studying at mcmaster university, hamilton, where I spend my days uncovering new technologies and creating the ideal schedule.
+        i'm a developer/creative/student in my 3rd year of software engineering at mcmaster university, hamilton. i'm passionate about building beuatiful user experiences, and <i>very</i> interested in distributed systems and open-source development! >:)
         <br />
         <br />
-        you can reach me at yangc137@mcmaster.ca anytime
+        you can reach me at 52cathyang at gmail dot com anytime
         <br />
         (or anywhere here)
         <br />
