@@ -13,13 +13,13 @@ function NavBar(){
         <NavLink 
                 to="/" 
                 className="nav_link">
-                home
+                me
           </NavLink>
           <NavLink 
-                to="/about" 
+                to="/experience" 
                 className="nav_link"
                 > 
-                about
+                experience
           </NavLink>
           <NavLink 
                 to="/projects"

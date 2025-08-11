@@ -83,19 +83,11 @@ function About(){
           />
         )}
         <p style={{ color: "var(--color-secondary)" }}>
-          <i>some of my favourite photos</i>
+          {/* <i>some of my favourite photos</i> */}
         </p>
         <p style={{ margin: '10px 0px 0px 0px' }}> ♪♫•*¨*•.¸¸♫♪ </p>
         <p style={{ margin: '10px 0px 0px 0px' }}>
-          hi there! i'm currently a 3rd year software engineering student studying
-          at <a style={{ textDecoration: 'underline' }} href="https://mcmaster.ca">mcmaster university</a>, in hamilton, ontario.
-          <br />
-          <br />
-          when i'm not doing school work, you can find me swimming, studying up on accessibility and system designs,
-          and indulging in creative disciplines (i've got a deep love for world exploration games and design)
-          <br />
-          <br />
-          previously,
+          what i've been up to >>
           <br />
 <div className="internship-column">
   {previousInternships.map((internship, index) => (
@@ -142,7 +134,6 @@ function About(){
     </div>
   ))}
 </div>
-          <br />
         </p>
         <p style={{ margin: '10px 0px 15px 0px' }}> ♪♫•*¨*•.¸¸♫♪ </p>
         <style>{`

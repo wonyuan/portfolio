@@ -41,7 +41,7 @@ function Home() {
         an engineering student living in beautiful (usually) 27°C toronto.
         <br />
         <br />
-        i'm a developer/creative/student in my 3rd year of software engineering at mcmaster university, hamilton. i'm passionate about building beuatiful user experiences, and <i>very</i> interested in distributed systems and open-source development! >:)
+        i'm a developer/creative/student in my 3rd year of software engineering at mcmaster university, hamilton. i'm passionate about building beautiful user experiences, and <i>very</i> interested in distributed systems and open-source development! >:)
         <br />
         <br />
         you can reach me at 52cathyang at gmail dot com anytime

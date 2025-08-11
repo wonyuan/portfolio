@@ -38,7 +38,7 @@ function PageRouter(){
           <div className='flex-container' id='content' style={{ overflowY: 'scroll' }}>
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
+              <Route path="/experience" element={<About />} />
               <Route path="/projects" element={<Project />} />
               <Route path="/design" element={<Design />} />
               <Route path="/manifesto" element={<Manifesto />} />
