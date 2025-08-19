@@ -5,6 +5,9 @@
   font-style: normal;
 }
 
+html, body, * {
+  cursor: url('/Cross.cur'), auto;
+}
 
 :root {
   font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
