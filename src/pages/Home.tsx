@@ -5,6 +5,7 @@ import SongPill from '@components/SongPill';
 import ScrollHint from '@components/ScrollHint';
 import PageTransition from '@components/PageTransition';
 import { Link } from 'react-router-dom';
+import useImagePreloader from '@hooks/useImagePreloader';
 
 const ProfileCard = () => (
   <div style={{
@@ -23,6 +24,8 @@ const ProfileCard = () => (
     <img
       src="/mememe.jpg"
       alt="catherine"
+      loading="lazy"
+      decoding="async"
       style={{ width: 200, height: 200, borderRadius: 6, objectFit: 'cover' }}
     />
     <div style={{ textAlign: 'left', lineHeight: 1.5 }}>
@@ -79,13 +82,13 @@ const HoverImage = ({ src, top, left, width, baseZ, label, link, customTooltip }
       )}
 
       {customTooltip ? (
-        <Image src={src} alt="" draggable={false} onDragStart={e => e.preventDefault()} style={{ width: '100%' }} />
+        <Image src={src} alt="" draggable={false} imageProps={{ loading: 'lazy', decoding: 'async' }} onDragStart={e => e.preventDefault()} style={{ width: '100%' }} />
       ) : label ? (
         <Tooltip label={label} color="rgba(105, 96, 96, 0.9)" style={{ fontWeight: '700' }}>
-          <Image src={src} alt="" draggable={false} onDragStart={e => e.preventDefault()} style={{ width: '100%' }} />
+          <Image src={src} alt="" draggable={false} imageProps={{ loading: 'lazy', decoding: 'async' }} onDragStart={e => e.preventDefault()} style={{ width: '100%' }} />
         </Tooltip>
       ) : (
-        <Image src={src} alt="" draggable={false} onDragStart={e => e.preventDefault()} style={{ width: '100%' }} />
+        <Image src={src} alt="" draggable={false} imageProps={{ loading: 'lazy', decoding: 'async' }} onDragStart={e => e.preventDefault()} style={{ width: '100%' }} />
       )}
     </Box>
   );
@@ -93,6 +96,18 @@ const HoverImage = ({ src, top, left, width, baseZ, label, link, customTooltip }
 
 const Home = () => {
   const [clicked, setClicked] = useState(false);
+
+  // Preload home page images in the background
+  useImagePreloader([
+    '/light_backing.png',
+    '/frog.png',
+    '/bungeo.png',
+    '/doggy.png',
+    '/star.png',
+    '/sticker.png',
+    '/tomato.png',
+    '/mememe.jpg',
+  ]);
 
   return (
     <PageTransition>

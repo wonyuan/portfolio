@@ -8,9 +8,13 @@ import ScrollToTop from '@components/ScrollToTop';
 import { MantineProvider } from '@mantine/core';
 import { theme } from '@styles/theme.ts';
 import { AnimatePresence } from 'framer-motion';
+import useImagePreloader from '@hooks/useImagePreloader';
 
 const AnimatedRoutes = () => {
   const location = useLocation();
+  
+  // Preload global assets in the background
+  useImagePreloader(['/Gradient.png', '/Cross.cur', '/fish-bone.svg']);
   
   return (
     <AnimatePresence mode="wait">
