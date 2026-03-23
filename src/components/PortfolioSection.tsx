@@ -1,4 +1,5 @@
 import { useState, useRef, CSSProperties } from 'react';
+import { Box } from '@mantine/core';
 
 const FADE_IN_CSS = `
 @keyframes fadeIn {
@@ -171,7 +172,7 @@ export default function PortfolioSection() {
   const [hovered, setHovered] = useState<HoverState | null>(null);
 
   return (
-    <div ref={sectionRef} style={styles.section}>
+    <Box ref={sectionRef} sx={styles.section as any}>
       <style>{FADE_IN_CSS}</style>
 
       <div style={styles.heading}>work</div>
@@ -186,25 +187,25 @@ export default function PortfolioSection() {
           <ProjectRow key={i} {...proj} sectionRef={sectionRef} onHover={setHovered} />
         ))}
       </div>
-      <div
-        style={{
-          ...styles.sideImg,
+      <Box
+        sx={{
+          ...(styles.sideImg as any),
           top: hovered ? hovered.top : 0,
           opacity: hovered ? 1 : 0,
           willChange: 'transform, opacity, top',
+          '@media (max-width: 1024px)': {
+            display: 'none',
+          },
         }}
       >
         <img
           key={hovered?.image}
           src={hovered?.image ?? ''}
-          alt="preview"
-          decoding="async"
-          loading="eager"
           style={{ width: '100%', display: 'block', borderRadius: 10 }}
         />
-      </div>
+      </Box>
 
-    </div>
+    </Box>
   );
 }
 

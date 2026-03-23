@@ -254,6 +254,10 @@ const Home = () => {
           alignItems: 'flex-end',
           marginTop: '4rem',
           marginBottom: '-1rem',
+          '@media (max-width: 600px)': {
+            alignItems: 'center',
+            marginTop: '2rem',
+          },
         }}>
           { }
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '0.6rem' }}>

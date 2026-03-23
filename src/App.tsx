@@ -9,6 +9,7 @@ import { MantineProvider } from '@mantine/core';
 import { theme } from '@styles/theme.ts';
 import { AnimatePresence } from 'framer-motion';
 import useImagePreloader from '@hooks/useImagePreloader';
+import LoadingScreen from '@components/LoadingScreen';
 
 const AnimatedRoutes = () => {
   const location = useLocation();
@@ -32,7 +33,7 @@ const App = () => {
   return (
     <MantineProvider theme={theme}>
       <BrowserRouter>
-        {}
+        <LoadingScreen />
         <div style={{
           position: 'fixed',
           inset: 0,
