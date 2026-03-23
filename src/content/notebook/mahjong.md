@@ -1,6 +1,6 @@
 ---
 title: "mahjong"
-date: "mar 23 2025"
+date: "mar 22 2025"
 type: "poem"
 ---
 

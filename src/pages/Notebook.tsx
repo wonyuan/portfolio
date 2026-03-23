@@ -2,7 +2,7 @@ import PageTransition from '@components/PageTransition';
 import { Link } from 'react-router-dom';
 
 const notebookEntries = [
-  { date: 'mar 23 2025', title: 'mahjong', type: 'poem', id: 'mahjong' }
+  { date: 'mar 22 2025', title: 'mahjong', type: 'poem', id: 'mahjong' }
 ];
 
 export default function Notebook() {
