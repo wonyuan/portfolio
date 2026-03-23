@@ -17,7 +17,7 @@ const workExperiences = [
   },
   {
     company: 'RBC Borealis',
-    role: 'ml platform engineer intern',
+    role: 'software developer intern',
     duration: 'may 2025 – apr 2025',
     description: 'enabling ai services & ml lifecycles through aws + azure',
     image: 'borealis.png',
