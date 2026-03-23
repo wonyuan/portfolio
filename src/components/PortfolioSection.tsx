@@ -86,7 +86,7 @@ const projects = [
 
 interface HoverState {
   image: string;
-  top: number; 
+  top: number;
 }
 
 
@@ -191,11 +191,15 @@ export default function PortfolioSection() {
           ...styles.sideImg,
           top: hovered ? hovered.top : 0,
           opacity: hovered ? 1 : 0,
+          willChange: 'transform, opacity, top',
         }}
       >
         <img
+          key={hovered?.image}
           src={hovered?.image ?? ''}
           alt="preview"
+          decoding="async"
+          loading="eager"
           style={{ width: '100%', display: 'block', borderRadius: 10 }}
         />
       </div>
@@ -224,7 +228,7 @@ const styles: Record<string, CSSProperties> = {
     pointerEvents: 'none',
     animation: 'fadeIn 0.15s ease',
     zIndex: 10,
-    transform: 'translateY(-50%)',  
+    transform: 'translateY(-50%)',
     transition: 'top 0.2s ease',
   },
   heading: {

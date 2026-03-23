@@ -8,19 +8,7 @@ import { Link } from 'react-router-dom';
 import useImagePreloader from '@hooks/useImagePreloader';
 
 const ProfileCard = () => (
-  <div style={{
-    background: 'rgba(105, 96, 96, 0.9)',
-    borderRadius: 8,
-    padding: '10px 12px',
-    boxShadow: '0 4px 16px rgba(0,0,0,0.2)',
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'left',
-    gap: 8,
-    minWidth: 130,
-    pointerEvents: 'none',
-    fontFamily: 'inherit',
-  }}>
+  <div style={{ background: 'rgba(105, 96, 96, 0.9)', borderRadius: 8, padding: '10px 12px', boxShadow: '0 4px 16px rgba(0,0,0,0.2)', display: 'flex', flexDirection: 'column', alignItems: 'left', gap: 8, minWidth: 130, pointerEvents: 'none', fontFamily: 'inherit', }}>
     <img
       src="/mememe.jpg"
       alt="catherine"
@@ -97,17 +85,7 @@ const HoverImage = ({ src, top, left, width, baseZ, label, link, customTooltip }
 const Home = () => {
   const [clicked, setClicked] = useState(false);
 
-  // Preload home page images in the background
-  useImagePreloader([
-    '/light_backing.png',
-    '/frog.png',
-    '/bungeo.png',
-    '/doggy.png',
-    '/star.png',
-    '/sticker.png',
-    '/tomato.png',
-    '/mememe.jpg',
-  ]);
+  useImagePreloader(['/light_backing.png', '/frog.png', '/bungeo.png', '/doggy.png', '/star.png', '/sticker.png', '/tomato.png', '/mememe.jpg', '/shopify.png', '/borealis.png', '/coveducation.png', '/eunasol.png', '/directu.png', '/talktome.png', '/linkedout.png', '/reverie.png', '/somi2.png', '/brewcareer.png',]);
 
   return (
     <PageTransition>
@@ -126,7 +104,7 @@ const Home = () => {
         }}
       >
         <SongPill />
-        {}
+        { }
         <Box
           sx={{
             position: 'relative',
@@ -257,7 +235,7 @@ const Home = () => {
             </Stack>
           </Box>
 
-          {}
+          { }
           <HoverImage src="/frog.png" top="-12%" left="16.5%" width="22%" baseZ={2} label="let's connect!" link="https://linkedin.com/in/yangc137" />
           <HoverImage src="/bungeo.png" top="-5%" left="28.5%" width="24%" baseZ={10} />
           <HoverImage src="/doggy.png" top="74%" left="-6%" width="38%" baseZ={6} label="on my mind..." link="https://boxd.it/faaa7" />
@@ -273,13 +251,13 @@ const Home = () => {
           maxWidth: '600px',
           display: 'flex',
           flexDirection: 'column',
-          alignItems: 'flex-end',   
+          alignItems: 'flex-end',
           marginTop: '4rem',
           marginBottom: '-1rem',
         }}>
-          {}
+          { }
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '0.6rem' }}>
-            { [
+            {[
               { label: 'manifesto', href: '/manifesto' },
               { label: 'notebook', href: '/notebook' },
             ].map(({ label, href }) => (
@@ -299,9 +277,9 @@ const Home = () => {
                 onMouseEnter={e => (e.currentTarget.style.color = '#784141')}
                 onMouseLeave={e => (e.currentTarget.style.color = '#9E7070')}
               >
-                {}
+                { }
                 <svg width="7" height="10" viewBox="0 0 10 14" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ imageRendering: 'pixelated', flexShrink: 0 }}>
-                  {}
+                  { }
                   <rect x="0" y="0" width="2" height="2" fill="#C4A090" />
                   <rect x="2" y="2" width="2" height="2" fill="#C4A090" />
                   <rect x="4" y="4" width="2" height="2" fill="#C4A090" />
@@ -309,7 +287,7 @@ const Home = () => {
                   <rect x="4" y="8" width="2" height="2" fill="#C4A090" />
                   <rect x="2" y="10" width="2" height="2" fill="#C4A090" />
                   <rect x="0" y="12" width="2" height="2" fill="#C4A090" />
-                  {}
+                  { }
                   <rect x="2" y="0" width="2" height="2" fill="#9E7070" />
                   <rect x="4" y="2" width="2" height="2" fill="#9E7070" />
                   <rect x="6" y="4" width="2" height="2" fill="#9E7070" />
