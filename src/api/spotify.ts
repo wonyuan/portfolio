@@ -18,7 +18,7 @@ async function getAccessToken() {
     return res.json();
 }
 
-export default async function handler(req, res) {
+export default async function handler(_req: any, res: any) {
     res.setHeader("Access-Control-Allow-Origin", "*");
 
     const { access_token } = await getAccessToken();
@@ -38,7 +38,7 @@ export default async function handler(req, res) {
     return res.status(200).json({
         isPlaying: data.is_playing,
         name: data.item.name,
-        artists: data.item.artists.map(a => a.name).join(", "),
+        artists: data.item.artists.map((a: any) => a.name).join(", "),
         albumArt: data.item.album.images[2]?.url ?? data.item.album.images[0]?.url,
         trackUrl: data.item.external_urls.spotify,
         progressMs: data.progress_ms,
