@@ -12,8 +12,8 @@ const workExperiences = [
   {
     company: 'Shopify',
     role: 'software engineer intern',
-    duration: 'incoming',
-    description: 'tbd!',
+    duration: 'may 2026 - aug 2026',
+    description: 'payment insights and trusted supplier sourcing on shopify collective',
     image: 'shopify.png',
   },
   {
@@ -53,6 +53,13 @@ const projects = [
     description: 'won 3rd overall at elle25; healing parent-child relations',
     link: 'https://github.com/wonyuan',
     image: 'talktome.png',
+  },
+    {
+    name: 'Prosody',
+    role: 'react, python, elasticsearch',
+    description: 'for htn26, neural network backed sales copilot',
+    link: 'https://prosidy.ca',
+    image: 'prosody.png',
   },
   {
     name: 'linkedout',
