@@ -85,7 +85,7 @@ const HoverImage = ({ src, top, left, width, baseZ, label, link, customTooltip }
 const Home = () => {
   const [clicked, setClicked] = useState(false);
 
-  useImagePreloader(['/light_backing.png', '/frog.png', '/bungeo.png', '/doggy.png', '/star.png', '/sticker.png', '/tomato.png', '/mememe.jpg', '/shopify.png', '/borealis.png', '/coveducation.png', '/eunasol.png', '/directu.png', '/talktome.png', '/linkedout.png', '/reverie.png', '/somi2.png', '/brewcareer.png',]);
+  useImagePreloader(['/light_backing.png', '/frog.png', '/bungeo.png', '/doggy.png', '/star.png', '/sticker.png', '/tomato.png', '/mememe.jpg', '/shopify.png', '/borealis.png', '/coveducation.png', '/eunasol.png', '/nothinghere.png', '/directu.png', '/talktome.png', '/linkedout.png', '/somi2.png', '/brewcareer.png',]);
 
   return (
     <PageTransition>

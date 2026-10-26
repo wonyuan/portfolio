@@ -41,17 +41,24 @@ const workExperiences = [
 
 const projects = [
   {
+    name: 'Nothing Here',
+    role: 'react, typescript, cohere',
+    description: 'pick songs that sound like you, get a haiku about what they share',
+    link: 'https://nodreamshere.vercel.app',
+    image: 'nothinghere.png',
+  },
+  {
     name: 'DirectU',
     role: 'react, python, cohere, mongodb',
     description: 'won 1st for cohere at htn23; your degree w/out the hassle',
-    link: 'https://github.com/wonyuan',
+    link: 'https://directu.onrender.com',
     image: 'directu.png',
   },
   {
     name: 'talktome',
     role: 'next.js, python, cohere',
     description: 'won 3rd overall at elle25; healing parent-child relations',
-    link: 'https://github.com/wonyuan',
+    link: 'https://github.com/wonyuan/talktome',
     image: 'talktome.png',
   },
     {
@@ -69,17 +76,10 @@ const projects = [
     image: 'linkedout.png',
   },
   {
-    name: 'Reverie',
-    role: 'react',
-    description: 'a workspace to streamline your study needs',
-    link: 'https://github.com/wonyuan',
-    image: 'reverie.png',
-  },
-  {
     name: 'Somi',
     role: 'figma, adobe xd',
     description: 'for figbuild26, helping people stay clean by detecting cravings before they peak.',
-    link: 'https://github.com/wonyuan',
+    link: 'https://devpost.com/software/somi-wb4q9h',
     image: 'somi2.png'
   },
   {
